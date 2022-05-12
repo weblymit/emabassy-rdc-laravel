@@ -1,7 +1,9 @@
-<nav class="bg-blue-800 text-gray-50 py-6d py-7 text-lg">
+<nav class="top-2s containers absolute left-0 right-0 z-10 flex justify-between bg-transparent pt-10 text-white text-xl">
     <div class="container flex  justify-between items-center ">
         <div class="">
-            <a href="#">RDC</a>
+            <a href="#">
+                <img src="{{ asset("img/logo.png") }}" alt="logo rdc" class="w-20 h-20">
+            </a>
         </div>
         <div class="flex justify-end space-x-8 font-bold">
             <a href="#">Accueil</a>
